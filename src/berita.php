@@ -62,8 +62,20 @@ class berita extends db{
 		}
 	}
 
-}
+	public function count(){
+		$query = $this->conn->prepare("SELECT count berita from berita") or die($this->conn->error);
+		// $query->bind_param("s", $id);
+		if($query->execute()){
+			$result = $query->get_result();
+			return $result;
+		}
+	}
 
+
+
+
+
+					}
 $news = new berita();
 // $news->idKategori = 12;
 // $news->judul = "bebek";
@@ -77,14 +89,8 @@ $news = new berita();
 
 // $news->delete("3");
 
-$data = $news->detail(12);
-
-					while($fetch = $data->fetch_array()){
-echo "<b>".$fetch['judul']."</b>";
-echo $fetch['konten']."<br>";
-
-					}
-
+// $data = $news->read();
+// var_dump($data->num_rows);
 
 
 

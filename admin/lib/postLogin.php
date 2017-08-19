@@ -1,9 +1,9 @@
 <?php
 	session_start();
 	require_once '../../src/auth.php';
-	require_once '../../src/config.php';
+	// require_once '../../src/config.php';
 	$auth = new auth();
-	$url = new url();
+	// $url = new url();
 	// var_dump($auth);
 	if($auth->login($_POST['username'],$_POST['password'])) {
 		session_start();
