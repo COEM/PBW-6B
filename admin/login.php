@@ -18,7 +18,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>COWM news Admin Login</title>
+    <title>COEM news Admin Login</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">

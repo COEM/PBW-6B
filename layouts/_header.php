@@ -31,7 +31,7 @@
 					<ul>
 						<li><a href="/pbw"><span>Home</span></a></li>
 						<li><a href="/pbw/admin/login.php"><span>Login</span></a></li>
-						<li><a href="/pbw/signup.php"><span>Register</span></a></li>
+						<li><a href="/pbw/admin/register.php"><span>Register</span></a></li>
 					</ul>
 				</nav>
 			</div>

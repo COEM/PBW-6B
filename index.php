@@ -13,13 +13,13 @@
 				?>
 					<div class="span8">
 					<?php include 'page/allPost.php'; ?>
-					<section id="blog_pagination" class="clearfix">
+					<!-- <section id="blog_pagination" class="clearfix">
 						<div class="pagination">
 							<span class="page-numbers current">1</span>
 							<a class="page-numbers" href="#">2</a>
 							<a class="next page-numbers" href="#"><i class="ci_icon-angle-right"></i></a>
 						</div>
-					</section>
+					</section> -->
 
 				</div>
 				<?php } ?>

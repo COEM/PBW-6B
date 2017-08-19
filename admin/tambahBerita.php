@@ -9,12 +9,12 @@ if (isset($_SESSION['logged_in'])) {
 		<div class="col-lg-10">
 			<div class="form-group">
 				<label for="nama">Judul :</label>
-				<input name="judul" type="text" class="form-control">
+				<input name="judul" type="text" class="form-control" required>
 			</div>
 			
 			<label for="nama">Ketegori :</label>
 			<div class="form-group">
-				<select name="kategori" class="form-control">
+				<select name="kategori" class="form-control" required
 				<option value="">pilih kategori</option>
 				<?php require_once '../src/kategori.php';
 					$kategori = new kategori();
@@ -28,7 +28,7 @@ if (isset($_SESSION['logged_in'])) {
 			</div>
 			<div class="form-group">
 				<label for="nama">Konten :</label>
-				<textarea name="konten" class="form-control" rows="10"></textarea>
+				<textarea name="konten" class="form-control" rows="10" required></textarea>
 			</div>
 			<br>
 			<label for="nama">Gambar :</label>

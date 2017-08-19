@@ -35,12 +35,12 @@
       <form action="lib/postRegist.php"  method="post" class="form-signin">
         <h2 class="form-signin-heading">Register Page</h2>
         
-        <input name="username" type="text" class="form-control" placeholder="Username"/><br>
-        <input name="email" type="email" class="form-control" placeholder="E-Mail"/><br>
-        <input name="name" type="text" class="form-control" placeholder="Full name"/><br>
+        <input name="username" type="text" class="form-control" placeholder="Username" required/><br>
+        <input name="email" type="email" class="form-control" placeholder="E-Mail" required/><br>
+        <input name="name" type="text" class="form-control" placeholder="Full name" required/><br>
 
-        <input name="password" type="password" class="form-control" placeholder="Password"/><br>
-        <input name="conPassword" type="password" class="form-control" placeholder="Confirm Password"/><br>
+        <input name="password" type="password" class="form-control" placeholder="Password" required /><br>
+        <input name="conPassword" type="password" class="form-control" placeholder="Confirm Password" required /><br>
        
 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
